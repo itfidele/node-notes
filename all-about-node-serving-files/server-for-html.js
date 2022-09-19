@@ -1,7 +1,7 @@
 var http =require("http")
 var fs=require("fs")
 
-
+/* Serving html file over node server */
 http.createServer((request,response)=>{
     console.log("port number",3000)
     response.writeHead(200,{"Content-Type":"text/html"})

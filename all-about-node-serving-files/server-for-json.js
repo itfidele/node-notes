@@ -1,6 +1,8 @@
 var http=require("http")
 var fs=require("fs")
 
+/* pass json over node server */
+
 http.createServer((request,response)=>{
     response.writeHead(200,{"Content-Type":"application/json"})
 

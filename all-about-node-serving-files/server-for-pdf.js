@@ -1,6 +1,9 @@
 var http = require("http");
 var fs = require("fs");
 
+
+/* Serving PDF file over node server */
+
 http.createServer((request, response) => {
     response.writeHead(200, { "Content-Type": "application/pdf" });
     console.log("listening..",3000)
