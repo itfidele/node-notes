@@ -6,7 +6,7 @@ http.createServer((request,response)=>{
     console.log("port number",3000)
     response.writeHead(200,{"Content-Type":"text/html"})
     // reading html file
-    fs.readFile('001/index.html',(error,data)=>{
+    fs.readFile('all-about-node-serving-files/index.html',(error,data)=>{
         if(error)
             throw error
         console.log("operation Success")

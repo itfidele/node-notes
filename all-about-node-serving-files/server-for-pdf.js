@@ -4,7 +4,7 @@ var fs = require("fs");
 http.createServer((request, response) => {
     response.writeHead(200, { "Content-Type": "application/pdf" });
     console.log("listening..",3000)
-    fs.readFile("001/index.pdf", (error, data) => {
+    fs.readFile("all-about-node-serving-files/index.pdf", (error, data) => {
       if (error) {
         response.json({
           status: "error",
