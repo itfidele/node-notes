@@ -1,0 +1,1 @@
+I'm just writing on the file sync /  but it clears the whole data in it
